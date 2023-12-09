@@ -1,0 +1,73 @@
+.shop-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+h2 {
+  color: #333;
+}
+
+.phone-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.phone-card {
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.phone-card img {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px; 
+}
+
+.phone-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%; 
+}
+
+h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+p {
+  color: #777;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+button {
+  margin-top: auto; 
+  margin-top: 10px; 
+  padding: 0.75em 1em;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.checkout-link {
+  display: block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}

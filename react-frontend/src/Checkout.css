@@ -1,0 +1,45 @@
+.checkout-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: black;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+button {
+  background-color: #f3f5f3;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* Add this rule for the links */
+.checkout-links {
+    margin-top: 20px;
+  }
