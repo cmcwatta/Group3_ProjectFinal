@@ -1,0 +1,141 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.nav-link,
+.cart-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+}
+
+.right {
+  margin-left: auto;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.cart-icon {
+  width: 30px;
+  height: auto;
+}
+
+.nav-link:hover,
+.cart-link:hover {
+  background-color: #e0e0e0;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 4px;
+  width: 75px; /* Adjust the width as needed */
+  background-color: #4d4c4c;
+}
+.cart-modal {
+  background-color: #f2f2f2; /* Change the background color of the cart */
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+}
+.quantity button {
+  font-size: 14px;
+  padding: 4px 8px;
+  margin: 0 4px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.cart-modal h3 {
+  text-decoration: underline; /* Underline the text */
+}
+
+.quantity button:hover {
+  background-color: #0056b3;
+}
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+li {
+  display: flex; /* Use flex display to align content horizontally */
+  justify-content: space-between; /* Distribute space evenly between content */
+  align-items: center; /* Align content vertically center */
+  text-align: left;
+  margin-bottom: 4px;
+}
+.added-to-cart-message {
+  position: fixed;
+  top: 50px; /* Adjust the top position as needed */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  animation: fadeOut 3s forwards; /* Add a fade-out animation */
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.checkout-container {
+  background-color: #fff; /* Set the background color to white or your desired color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+.checkout-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #333; /* Set the text color to a dark color for better visibility */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.place-order-btn {
+  background-color: #007bff; /* Set the button background color to a contrasting color */
+  color: #fff; /* Set the button text color to white for better visibility */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
